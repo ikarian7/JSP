@@ -4,9 +4,39 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title>Opdracht2</title>
+<%  int minuutsec = 60; %>
 </head>
 <body>
-
+ <table border="1">
+            <thead>
+                <tr>
+                    <th>Eenheid</th>
+                    <th>Aantal seconden</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>minuut</td>
+                    <td><%= minuutsec %></td>
+                </tr>
+                <tr>
+                    <td>Uur</td>
+                    <td><%= minuutsec*60 %></td>
+                </tr>
+                <tr>
+                    <td>Dag</td>
+                    <td><%= minuutsec*1440 %></td>
+                </tr>
+                <tr>
+                    <td>Week</td>
+                    <td><%= minuutsec*10080 %></td>
+                </tr>
+                <tr>
+                    <td>Jaar</td>
+                    <td><%= minuutsec*525600 %></td>
+                </tr>
+            </tbody>
+        </table>
 </body>
 </html>
