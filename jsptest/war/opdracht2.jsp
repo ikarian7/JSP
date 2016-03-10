@@ -18,7 +18,7 @@
             <tbody>
                 <tr>
                     <td>minuut</td>
-                    <td><%= minuutsec %></td>
+                    <td><%= minuutsec*1 %></td>
                 </tr>
                 <tr>
                     <td>Uur</td>
