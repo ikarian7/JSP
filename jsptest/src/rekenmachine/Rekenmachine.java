@@ -1,4 +1,4 @@
-package java;
+package rekenmachine;
 
 public class Rekenmachine {
 
