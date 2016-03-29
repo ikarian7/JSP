@@ -13,6 +13,11 @@
 <title>tafels</title>
 </head>
 <body>
+<form action="Opdracht8.jsp" method="get">
+    <input type="text" name="tekst_input_1">
+    <input type="submit" name="knop_1" value="Ok">
+    <input type="hidden" name="naam" value="<%= eenWaarde %>">
+</form>
     <h3>De tafel van 5</h3>
     <% if (geklikt) { 
 	for (int i = 1; i <= 10; i++) { %>

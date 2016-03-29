@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>JSP</title>
+<title>Geld delen</title>
 <%  double bedrag = 113.0; %>
 </head>
 <body>
