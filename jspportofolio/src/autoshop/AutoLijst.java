@@ -2,17 +2,11 @@ package autoshop;
 
 import java.util.ArrayList;
 
-/**
- * Klasse met een lijst van auto's
- * @author piet
- */
-public class Java2 {
+public class AutoLijst {
     private ArrayList<Auto> autolijst;
     
-    /**
-     * Constructor die de lijst aanmaakt en auto's toevoegt
-     */
-    public Java2() {
+
+    public AutoLijst() {
         autolijst = new ArrayList<Auto>();
         Auto ford1 = new Auto("Ford", "Fiesta", 23999, 
           "images/autos/fordfiesta.jpg");
@@ -49,20 +43,14 @@ public class Java2 {
         autolijst.add(mini1);
      }
     
-    /**
-     * 
-     * @return geeft de lijst met auto's
-     */
+  
     public ArrayList<Auto> getLijst() {
         return autolijst;
     }
     
     
     
-    /**
-     * Ten behoeve van het select merk input veld
-     * @return een lijst met alle unieke merken
-     */
+ 
     public ArrayList<String> getMerken() {
         ArrayList<String> merken = new ArrayList<String>();
         for (Auto auto: autolijst) {
