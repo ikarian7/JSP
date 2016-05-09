@@ -1,0 +1,19 @@
+@CHARSET "ISO-8859-1";
+body{
+	background: linear-gradient(to right, #E9E9E9, #DCDCDC);
+}
+#image{
+	width:250px;
+	height:150px;
+	border-style: solid;
+    border-width: 2px;
+}
+div{
+	border-style: solid;
+    border-width: 2px;
+    width:33%;
+	height:245px;
+	margin: 10px;
+	float:left;
+	background: linear-gradient(to right, #D42500, #C82602);
+	}
